@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@google/genai": "^1.21.0",
+    "@google/generative-ai": "^0.24.1",
+    "canvas": "^3.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "exceljs": "^4.4.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "openai": "^5.23.0",
+    "pdf-parse": "^1.1.1",
+    "pdf-poppler": "^0.2.1",
+    "pdfjs-dist": "^4.3.136",
+    "tesseract.js": "^6.0.1",
+    "xlsx": "^0.18.5"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
