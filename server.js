@@ -16,6 +16,7 @@ const MODEL_NAME = "gemini-2.5-flash";
 // --- CORS Configuration ---
 const allowedOrigins = [
     'http://localhost:5173', 
+    'https://document-parser-one.vercel.app',
 ];
 const corsOptions = {
     origin: (origin, callback) => {
